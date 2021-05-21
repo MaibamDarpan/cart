@@ -23,7 +23,7 @@
 
 
    const grandTotal = document.getElementById("grand-total");
-   grandTotal.innerText = standardTax + totalPrice.innerText;
+   grandTotal.innerText = standardTax + parseFloat(totalPrice.innerText);
   
 
   })
@@ -54,7 +54,7 @@
   
 
    const grandTotal = document.getElementById("grand-total");
-   grandTotal.innerText = standardTax + totalPrice.innerText;
+   grandTotal.innerText = standardTax + parseFloat(totalPrice.innerText);
 
    
 
@@ -83,7 +83,7 @@ caseIncrease.addEventListener("click", function(){
   
 
    const grandTotal = document.getElementById("grand-total");
-   grandTotal.innerText = standardTax + totalPrice.innerText;
+   grandTotal.innerText = standardTax + parseFloat(totalPrice.innerText);
    
 
 })
@@ -118,7 +118,7 @@ caseDecrease.addEventListener("click", function(){
 
 
    const grandTotal = document.getElementById("grand-total");
-   grandTotal.innerText = standardTax + totalPrice.innerText;
+   grandTotal.innerText = standardTax + parseFloat(totalPrice.innerText);
 
    
  
