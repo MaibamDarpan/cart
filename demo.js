@@ -17,7 +17,7 @@
    totalPrice.innerText = parseInt(casePrice.innerText) + parseInt(phonePrice.innerText);
    
    const taxArea = document.getElementById("tax-amount");
-   taxArea.innerText = parseFloat(totalPrice.innerText) * .15;
+   taxArea.innerText = parseFloat(totalPrice.innerText) * .10;
    const standardTax = parseFloat(taxArea.innerText);
  
 
@@ -49,7 +49,7 @@
    totalPrice.innerText = parseInt(casePrice.innerText) + parseInt(phonePrice.innerText);
 
    const taxArea = document.getElementById("tax-amount");
-   taxArea.innerText = parseFloat(totalPrice.innerText) * .15;
+   taxArea.innerText = parseFloat(totalPrice.innerText) * .10;
    const standardTax = parseFloat(taxArea.innerText);
   
 
@@ -78,7 +78,7 @@ caseIncrease.addEventListener("click", function(){
    totalPrice.innerText = parseInt(casePrice.innerText) + parseInt(phonePrice.innerText);
 
    const taxArea = document.getElementById("tax-amount");
-   taxArea.innerText = parseFloat(totalPrice.innerText) * .15;
+   taxArea.innerText = parseFloat(totalPrice.innerText) * .10;
    const standardTax = parseFloat(taxArea.innerText);
   
 
